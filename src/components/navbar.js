@@ -3,7 +3,7 @@ import userIcon from '../icons/userIcon.jpg';
 
 function Navbar(){
     return(
-        <div className="grid-rows-1 my-2 pt-3">
+        <div className="container mx-auto grid-rows-1 my-2 pt-3">
             <div className="grid grid-cols-4">
                 <form className="inline-flex col-span-3">
                         <div className="col-span-2">
