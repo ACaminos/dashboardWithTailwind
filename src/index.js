@@ -4,6 +4,7 @@ import './index.css';
 import DataCards from './components/dataCards';
 import Header from './components/header';
 import Navbar from './components/navbar';
+import Stadistic from './components/stadistic';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
     <Navbar/>
     <Header/>
     <DataCards/>
+    <Stadistic/>
   </React.StrictMode>,
   document.getElementById('root')
 );
