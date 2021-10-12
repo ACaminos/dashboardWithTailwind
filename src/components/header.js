@@ -2,8 +2,8 @@ import React from "react";
 
 function Header(){
     return(
-        <div className="container mx-auto grid grid-cols-6 gap-3 my-4">
-            <div className="col-span-5"><p className="text-lg">Dashboard</p></div>
+        <div className="grid grid-cols-5 gap-2 my-4">
+            <div className="col-span-4"><p className="text-lg pl-2">Dashboard</p></div>
             <div className="">
                 <button className="bg-blue-600 inline-flex space-x-1 py-1 px-3 text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

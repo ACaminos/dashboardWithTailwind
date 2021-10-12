@@ -4,15 +4,22 @@ import './index.css';
 import DataCards from './components/dataCards';
 import Header from './components/header';
 import Navbar from './components/navbar';
+import Sidebar from './components/sidebar';
 import Stadistic from './components/stadistic';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar/>
-    <Header/>
-    <DataCards/>
-    <Stadistic/>
+    <div className="float-left">
+      <Sidebar/>
+    </div>
+    <div className="float-none">
+      <Navbar/>
+      <Header/>
+      <DataCards/>
+      <Stadistic/>
+    </div>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

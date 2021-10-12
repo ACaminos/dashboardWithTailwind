@@ -3,7 +3,7 @@ import progress from '../icons/progress.png';
 
 function Stadistic(){
     return(
-        <div className="container mx-auto pl-8">
+        <div className=""> {/* container mx-auto pl-8 */}
             <div className="grid grid-cols-9 mt-4 gap-2">
                 <div className="col-span-6 border-black">
                     <div className="grid-rows-2">

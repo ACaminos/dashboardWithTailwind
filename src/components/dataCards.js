@@ -5,9 +5,9 @@ import task from '../icons/task.png';
 
 function DataCards(){
         return(
-                <div className="container mx-auto">
-                        <div className="inline-flex">
-                                <div className="w-72 h-32 shadow-xl mx-2">
+                <div className="container mx-auto">{/* container mx-auto */}
+                        <div className="inline-flex ">
+                                <div className="w-4/5 h-32 shadow-xl mx-4">
                                         <div className="grid grid-cols-5 gap-2 flex">
                                                 <div className="w-2 h-32 bg-blue-700 flex-auto"/>
                                                 <div className="pt-8 flex-auto col-span-2">
@@ -22,7 +22,7 @@ function DataCards(){
                                                 </div>
                                         </div>
                                 </div>
-                                <div className="w-72 h-32 shadow-xl mx-2">
+                                <div className="w-4/5 h-32 shadow-xl mx-4">
                                         <div className="grid grid-cols-5 gap-2 flex">
                                                 <div className="w-2 h-32 bg-green-300 flex-auto"/>
                                                         <div className="pt-8 flex-auto col-span-2">
@@ -37,7 +37,7 @@ function DataCards(){
                                                         </div>
                                                 </div>
                                 </div>
-                                <div className="w-72 h-32 shadow-xl mx-2">
+                                <div className="w-4/5 h-32 shadow-xl mx-4">
                                         <div className="grid grid-cols-6 gap-2 flex">
                                                 <div className="w-2 h-32 bg-blue-400 flex-auto"></div>
                                                 <div className="pt-8 flex-auto col-span-3">
@@ -55,7 +55,7 @@ function DataCards(){
 
                                         </div>
                                 </div>
-                                <div className="w-72 h-32 shadow-xl mx-2">
+                                <div className="w-4/5 h-32 shadow-xl mx-4">
                                         <div className="grid grid-cols-5 gap-2 flex">
                                                 <div className="w-2 h-32 bg-yellow-500 flex-auto"/>
                                                 <div className="pt-8 flex-auto col-span-2">
